@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aryan | Portfolio</title>
+    <meta name="description" content="Aryan's personal portfolio showcasing skills, projects, and contact details.">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ================= HOME ================= -->
+        <section id="home" class="intro">
+            <div class="profile-pic">
+                <img src="assets/logo.jpg" alt="Profile picture of Aryan">
+            </div>
+
+            <h1>Hi, I'm <span>Aryan</span> 👋</h1>
+            <h2>Welcome to My Portfolio</h2>
+
+            <div class="buttons">
+                <a href="#contact" class="btn primary-btn">Get in Touch</a>
+                <a href="assets/resume.pdf" class="btn secondary-btn" download>Download Resume</a>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="about-me">
+            <h2>About Me</h2>
+
+            <p>
+                I am a young and passionate coder who loves exploring new technologies and
+                continuously learning. I have already gained competent on <strong>Python, HTML, and CSS</strong>. I am currently learning and exploring in <strong>Data Analytics,
+                    and Data Science</strong>, with the foundational understanding of Python, HTML and CSS.
+            </p>
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+        <section id="skills" class="skills">
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="assets/pythonLogo.png" alt="Python" width="456">
+                    <p>Python</p>
+                </div>
+
+                <div class="skill">
+                    <img src="assets/analyticsLogo.png" alt="Data Analytics">
+                    <p>Data Analytics</p>
+                </div>
+
+                <div class="skill">
+                    <img src="assets/ScienceLogo.png" alt="Data Science" width="456">
+                    <p>Data Science</p>
+                </div>
+
+                <div class="skill">
+                    <img src="assets/html.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+
+                <div class="skill">
+                    <img src="assets/css.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="assets/projects/html.jpg" alt="HTML Tutorial Project">
+                    <h3>Power of HTML</h3>
+                    <p>HTML Tutorial</p>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/projects/css.png" alt="CSS Tutorial Project">
+                    <h3>Unlock CSS Magic</h3>
+                    <p>CSS Tutorial</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= CONTACT ================= -->
+    <footer id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <p>If you’d like to chat about a project or just say hello, feel free to drop a message.</p>
+
+        <div class="contact-container">
+
+            <!-- Contact Form -->
+          
+            <form class="contact-form" action="https://formspree.io/f/mbddjzly" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+           
+
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>Follow me on social media or send me an email.</p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/aryan-rathi-a95568331/" class="social-link">
+                        <img src="assets/linkedin.png" alt="LinkedIn">
+                        <span>LinkedIn</span>
+                    </a>
+
+                    
+                    <a href="https://www.instagram.com/aryanrathi045/" class="social-link">
+                        
+                        <img src="assets/instagram.png" alt="Instagram">
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://github.com/cadetsmy"
+                     
+                        class="social-link">
+                        <img src="assets/github.png" alt="GitHub">
+                        <span>GitHub</span>
+                    </a>
+                </div>
+
+                <p>Email:
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aryanrathimzn9259@gmail.com" target="_blank">aryanrathimzn9259@gmail.com</a>
+                    
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
